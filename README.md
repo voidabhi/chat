@@ -1,4 +1,4 @@
-node-tcp-chat
+Node TCP Chat
 =============
 
 A basic TCP chatting system
