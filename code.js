@@ -6,6 +6,7 @@ var net = require("net");
 // Creating chat server
 var chatServer  = net.createServer();
 
+// Default port number
 var PORT = 9000;
 
 // Client list
@@ -63,4 +64,4 @@ function broadcast(message,client)
 chatServer.listen(PORT);
 
 // Displaying message
-console.log("Server listening to port 9000...");
+console.log("Server listening to port "+PORT+"...");
