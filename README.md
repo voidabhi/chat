@@ -1,8 +1,6 @@
-Node TCP Chat
-=============
+# Node Chat
 
-A basic TCP chatting system
+A basic chatting system
 
-Dependencies
-===========
+# Dependencies
 `net`
