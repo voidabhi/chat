@@ -31,6 +31,7 @@ chatServer.on("connection",function(client){
 		contactList.splice(clientList.indexOf(client),1);
 	});
 	
+	// Handling error
 	client.on("error",function(e){
 		console.log(e);
 	});
