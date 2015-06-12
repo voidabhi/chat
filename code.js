@@ -52,7 +52,8 @@ function broadcast(message,client)
 			clientList[i].write(client.name+" says "+message);
 			else
 			{
-// pushing message to the client				cleanup.push(clientList[i]);
+// pushing message to the client			
+				cleanup.push(clientList[i]);
 				clientList[i].destroy();
 			}
 		}
