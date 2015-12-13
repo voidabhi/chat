@@ -2,5 +2,6 @@
 
 A basic chatting system
 
-# Dependencies
+### Dependencies
+
 `net`
