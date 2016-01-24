@@ -1,6 +1,6 @@
-# Node Chat
+## Node Chat
 
-A basic chatting system
+A basic chatting system built with node
 
 ### Dependencies
 
